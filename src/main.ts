@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import Contador from './Contador.vue'
 
-createApp(App).mount('#app')
+const app = createApp(Contador)
+
+app.mount('#app')
